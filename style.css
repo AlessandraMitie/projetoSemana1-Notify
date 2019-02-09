@@ -11,21 +11,41 @@ header{
     height: 10px;
     width: 100vw;
 }
+
+
+
+
+
+
 #setor1{
     margin: 0;
     width: 100vw;
-    height: 600px;
+    height: 91vh;
     background-image: url(imagens/banner.png);
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;  
+}
+#main{
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+#tituloSetor1{
     display: flex;
     align-items: center;
-    justify-content: center;
-  
+}
+#conteudoSetor1{
+
 }
 h1{
     margin: 0;
     font-family: 'Pacifico', cursive;
     color: white;
-    font-size: 33pt;
+    font-size: 35pt;
 }
 h2{
     font-family: 'Pacifico', cursive;
@@ -34,11 +54,15 @@ h2{
 }
 #psetor1{
     color: white;
-    font-size: 14pt;
+    font-size: 16pt;
+    text-align: left;
+    width: 70%;
 }
-#hand{
-    
-    width: 450px;
+#imagemSetor1{
+    margin-left: 30px;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
 }
 #iconesetor1{
     opacity: 0.6;
@@ -47,6 +71,7 @@ h2{
     border-radius: 100%;
 }
 #iconesetor1:hover{
+    opacity:1;
     cursor: pointer;
     background-color: rgb(29, 204, 116);
     border: 10px solid rgb(29, 204, 116);
