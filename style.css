@@ -3,7 +3,7 @@ body{
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(161, 161, 161);
-    font-size: 15px;
+    font-size: 13px;
 }
 header{
     margin: 0;
@@ -11,12 +11,6 @@ header{
     height: 10px;
     width: 100vw;
 }
-
-
-
-
-
-
 #setor1{
     margin: 0;
     width: 100vw;
@@ -37,9 +31,6 @@ header{
 #tituloSetor1{
     display: flex;
     align-items: center;
-}
-#conteudoSetor1{
-
 }
 h1{
     margin: 0;
@@ -77,19 +68,50 @@ h2{
     border: 10px solid rgb(29, 204, 116);
 }
 #setor2{
-    
+    margin: 50px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#editableTheme{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#flatDesign{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#reachYourAudience{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 #setor2 p{
-    font-size:
+    margin: 0;
+    text-align: center;
 }
-
 h3{
     color:black;
     font-size: 12pt;
 }
 #iconesetor2{
     background-color: rgb(29, 204, 116);
+    border-radius: 100%;
+    border: 20px solid rgb(29, 204, 116);
 }
+
+
+
+
+
 #setor3{
     margin: 0;
     background-color: rgb(204, 204, 204);
