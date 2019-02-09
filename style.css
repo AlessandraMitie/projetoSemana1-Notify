@@ -1,15 +1,83 @@
 body{
     margin: 0;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(161, 161, 161);
+    font-size: 15px;
 }
 header{
     margin: 0;
     background-color: rgb(29, 204, 116);
     height: 10px;
+    width: 100vw;
 }
 #setor1{
     margin: 0;
-    background-image: url("imagens/banner.png");
+    width: 100vw;
+    height: 600px;
+    background-image: url(imagens/banner.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+h1{
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 33pt;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    color: rgb(29, 204, 116);
+    font-size: 33pt;
+}
+#psetor1{
+    color: white;
+    font-size: 14pt;
+}
+#hand{
+    
+    width: 450px;
+}
+#iconesetor1{
+    opacity: 0.6;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 100%;
+}
+#iconesetor1:hover{
+    cursor: pointer;
+    background-color: rgb(29, 204, 116);
+    border: 10px solid rgb(29, 204, 116);
+}
+#setor2{
+    
+}
+#setor2 p{
+    font-size:
+}
+
+h3{
+    color:black;
+    font-size: 12pt;
+}
+#iconesetor2{
+    background-color: rgb(29, 204, 116);
+}
+#setor3{
+    margin: 0;
+    background-color: rgb(204, 204, 204);
 }
 footer{
     margin: 0;
+    height: 20%;
+    background-color: rgb(212, 211, 211);
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
