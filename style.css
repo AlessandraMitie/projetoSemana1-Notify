@@ -107,11 +107,6 @@ h3{
     border-radius: 100%;
     border: 20px solid rgb(29, 204, 116);
 }
-
-
-
-
-
 #setor3{
     margin: 0;
     padding: 10px 130px;
@@ -169,8 +164,52 @@ button{
     height: 270px;
     width: 600px;
 }
+#setor4{
+    margin: 0;
+    padding: 45px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#loremSetor4 p{
+    margin: 0;
+    width: 750px;
+    font-size: 12pt;
+    font-style: italic;
+    text-align: center;
+}
+h4{
+    color: black;
+    font-size: 12pt;
+    text-align: center;
+}
 
 
+h5{
+    margin: 0;
+    color: black;
+    font-size: 14pt;
+    text-align: center;
+}
+#iconesSetor4{
+    margin: 0;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logosSetor4{
+    border: 4px solid rgb(204, 204, 204);
+    border-radius: 100%;
+    background-color:  rgb(204, 204, 204);
+    display: flex;
+}
+#logosSetor4:hover{
+    cursor: pointer;
+    border: 4px solid rgb(29, 204, 116);
+    background-color: rgb(29, 204, 116);
+}
 
 
 
