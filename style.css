@@ -166,7 +166,7 @@ button{
 }
 #setor4{
     margin: 0;
-    padding: 45px 130px;
+    padding: 40px 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,8 +184,23 @@ h4{
     font-size: 12pt;
     text-align: center;
 }
-
-
+#imgPessoa{
+    width: 45px;
+}
+.imgBlur{
+    
+}
+#imgPessoa:hover{
+    cursor: pointer;
+    -webkit-filter: hue-rotate(120deg);
+    -moz-filter: hue-rotate(120deg);
+    -ms-filter: hue-rotate(120deg);
+    -o-filter: hue-rotate(120deg);
+    filter: hue-rotate(120deg);
+}
+#textoSetor4{
+    margin-top: 40px;
+}
 h5{
     margin: 0;
     color: black;
@@ -215,13 +230,18 @@ h5{
 
 footer{
     margin: 0;
-    height: 20%;
+    height: 20vh;
+    width: 100vw;
     background-color: rgb(212, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer ul{
+    width: 40vw;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
