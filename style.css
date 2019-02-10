@@ -195,26 +195,40 @@ h4{
     font-size: 12pt;
     text-align: center;
 }
-#imagensSetor4{
+.imagensSetor4{
     width: 75vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.img1Overlay{
-    background-image: linear-gradient(to left, rgb(255, 255, 255)), url(/imagens/pessoa1.jpg);
+.imgPessoa:first-child{
+    background-image: linear-gradient(to left, transparent, white);
 }
-#imgPessoa{
+.imgPessoa:last-child{
+    background-image: linear-gradient(to right, transparent, white);
+}
+.imgPessoa{
     display: flex;
-    width: 45px;
+    width: 43px;
+    height: 43px;
+    z-index: 2;
+    background-color: rgb(29, 204, 116);
 }
-#imgPessoa:hover{
+.imgPessoa img{
+    width: 43px;
+    position: relative;
+    z-index: 1;
+}
+.imgPessoa img:hover{
     cursor: pointer;
+    opacity: 0.4;
+    /*
     -webkit-filter: hue-rotate(120deg);
     -moz-filter: hue-rotate(120deg);
     -ms-filter: hue-rotate(120deg);
     -o-filter: hue-rotate(120deg);
     filter: hue-rotate(120deg);
+    */
 }
 #textoSetor4{
     margin-top: 40px;
@@ -259,4 +273,15 @@ footer ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+
+@media (min-width: 425px){
+
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 1440px){
+
 }
