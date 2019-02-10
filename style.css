@@ -22,7 +22,7 @@ header{
     justify-content: center;  
 }
 #main{
-    margin: 0;
+    margin: 10px 10px 10px 200px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -114,8 +114,66 @@ h3{
 
 #setor3{
     margin: 0;
+    padding: 10px 130px;
     background-color: rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+#conteudoSetor3{
+    margin: 70px 0 70px 70px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+#conteudoSetor3 h3{
+    width: 430px;
+    text-align: left;
+}
+#conteudoSetor3 p{
+    margin:0;
+    width: 430px;
+    text-align: left;
+}
+#notifySetor3{
+    margin: 20px 0;
+    width: 430px;
+    display: flex;
+}
+#emailAddress{
+    padding: 16px;
+    border-radius: 14px 0 0 14px;
+    border: none;
+}
+button{
+    padding: 12px;
+    border-radius: 0 14px 14px 0;
+    border: none;
+    background-color: rgb(29, 204, 116);
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    width: 110px;
+}
+#videoSetor3{
+    margin: 0;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: 270px;
+    width: 600px;
+}
+
+
+
+
+
 footer{
     margin: 0;
     height: 20%;
