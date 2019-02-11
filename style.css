@@ -106,7 +106,7 @@ h2{
     justify-content: center;
 }
 #setor2 p{
-    margin: 0;
+    margin: 0 10px 15px 10px;
     text-align: center;
 }
 h3{
@@ -124,7 +124,7 @@ h3{
     background-color: rgb(204, 204, 204);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 #conteudoSetor3{
     margin: 70px 0 70px 70px;
@@ -163,7 +163,7 @@ button{
     font-weight: bold;
     width: 110px;
 }
-#videoSetor3{
+.videoSetor3{
     margin: 0;
     width: 1000px;
     display: flex;
@@ -276,12 +276,27 @@ footer ul{
 }
 
 
-@media (min-width: 425px){
-
+@media (max-width: 425px){
+    #handImagem{
+        display: none;
+    }
+    #setor2{
+        flex-direction: column;
+    }
+    #setor3{
+        flex-direction: column;
+    }
+    .imagensSetor4{
+        flex-wrap: wrap;
+    }
 }
-@media (min-width: 768px){
-
+@media (max-width: 768px){
+    .imagensSetor4{
+        flex-wrap: wrap;
+    }
 }
-@media (min-width: 1440px){
-
+@media (max-width: 1024px){
+    .imagensSetor4{
+        flex-wrap: wrap;
+    }
 }
